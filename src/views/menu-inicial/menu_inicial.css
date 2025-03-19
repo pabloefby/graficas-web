@@ -1,0 +1,79 @@
+/* Estilos generales y fondo */
+body, html {
+  font-size: 20px;
+  height: 100%;
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
+  background: url('/resources/Fondo.png') no-repeat center center fixed;
+  background-size: cover;
+  color: #f1f1f1;
+  position: relative;
+}
+
+/* Capa oscura para el fondo */
+.capa_oscura {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+/* Contenedor centrado para el menú */
+.contenedor_menu {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.caja_menu {
+  background-color: rgba(30, 30, 30, 0.9);
+  padding: 40px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.caja_menu h1 {
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.boton_menu {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 15px;
+  font-size: 1rem;
+  border: none;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilos para cada botón */
+.boton_iniciar {
+  background-color: #4caf50;
+}
+
+.boton_iniciar:hover {
+  background-color: #45a049;
+}
+
+.boton_configurar {
+  background-color: #f39c12;
+}
+
+.boton_configurar:hover {
+  background-color: #e67e22;
+}
+
+.boton_salir {
+  background-color: #e74c3c;
+}
+
+.boton_salir:hover {
+  background-color: #c0392b;
+}

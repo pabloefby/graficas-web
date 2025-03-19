@@ -1,0 +1,91 @@
+/* Estilos generales y fondo */
+body, html {
+  font-size: 25px;
+  height: 100%;
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
+  background: url('/resources/Fondo.png') no-repeat center center fixed;
+  background-size: cover;
+  color: #f1f1f1;
+  position: relative;
+}
+
+/* Capa oscura para el fondo */
+.capa_oscura {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+/* Cuadro central de configuración */
+.caja_configuracion {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  width: 90%;
+  margin: auto;
+  background-color: rgba(30, 30, 30, 0.5);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.caja_configuracion h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.seccion_configuracion {
+  margin-bottom: 20px;
+}
+
+.seccion_configuracion label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+/* Estilos para inputs y selects */
+.caja_configuracion .form-control, 
+.caja_configuracion .form-control-range,
+.caja_configuracion select {
+  background-color: #333;
+  border: none;
+  color: #fff;
+}
+
+/* Botón para guardar configuraciones */
+.boton_guardar {
+  background-color: #4caf50;
+  border: none;
+  color: #fff;
+  width: 100%;
+  padding: 15px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.boton_guardar:hover {
+  background-color: #45a049;
+}
+
+/* Botón para regresar al menú inicial */
+.boton_regresar {
+  background-color: #e74c3c;
+  border: none;
+  color: #fff;
+  width: 100%;
+  padding: 15px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.boton_regresar:hover {
+  background-color: #c0392b;
+}

@@ -1,0 +1,70 @@
+body, html {
+  height: 100%;
+  background-color: #121212;
+  color: #f1f1f1;
+  font-family: 'Press Start 2P', cursive;
+  margin: 0;
+}
+
+/* ===== BARRA LATERAL ===== */
+.barra_lateral_login {
+  background-color: #1e1e1e;
+  padding: 30px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.barra_lateral_login h1 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.barra_lateral_login .form-control {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  margin-bottom: 15px;
+  box-shadow: none;
+}
+
+.barra_lateral_login .form-control:focus {
+  background-color: #333;
+  color: #fff;
+  box-shadow: none;
+}
+
+.boton_iniciar {
+  background-color: #4caf50;
+  border: none;
+  color: #fff;
+  margin-bottom: 10px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.boton_facebook {
+  background-color: #3b5998;
+  border: none;
+  color: #fff;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.enlace_crear_cuenta {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.enlace_crear_cuenta a {
+  color: #f1f1f1;
+  text-decoration: underline;
+}
+
+/* ===== IMAGEN LATERAL ===== */
+.imagen_lateral {
+  background-image: url('/resources/Fondo.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}

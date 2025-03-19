@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Placeholder - Configuración</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="configuracion.css">
+</head>
+<body>
+  <div class="capa_oscura"></div>
+  <div class="container h-100 d-flex align-items-center justify-content-center">
+    <div class="caja_configuracion">
+      <h1>Configuración</h1>
+      <form>
+        <!-- Configuración de dificultad -->
+        <div class="seccion_configuracion">
+          <label for="difficulty">Dificultad:</label>
+          <select class="form-control" id="difficulty">
+            <option value="facil">Fácil</option>
+            <option value="media">Media</option>
+            <option value="dificil">Difícil</option>
+          </select>
+        </div>
+        <!-- Configuración de volumen -->
+        <div class="seccion_configuracion">
+          <label for="volume">Volumen:</label>
+          <input type="range" class="form-control-range" id="volume" min="0" max="100">
+        </div>
+        <!-- Botón para guardar -->
+        <button type="submit" class="boton_guardar btn">Guardar Configuración</button>
+      </form>
+      <!-- Botón para regresar -->
+      <button type="button" class="boton_regresar btn" onclick="window.location.href='menu_inicial.html'">Regresar al Menú Inicial</button>
+    </div>
+  </div>
+</body>
+</html>
